@@ -18,7 +18,7 @@ For å kjøre scriptet, kan du bruke følgende kommando:
 
 ```bash
 python main.py -h
-
+```
 #Eksempler
 
 Her er noen eksempler på hvordan du kan bruke scriptet:
