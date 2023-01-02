@@ -1,0 +1,25 @@
+# Example configuration file in YAML format
+
+# Netbox connection information
+netbox_url: "https://netbox.example.com"
+netbox_token: "0123456789abcdef0123456789abcdef01234567"
+
+# Device information
+device_type: "cisco_ios"
+hostname: "SW1"
+
+# User information
+username: "admin"
+password: "secret"
+
+# Configuration parameters
+vlans:
+  - number: 10
+    name: "VLAN10"
+  - number: 20
+    name: "VLAN20"
+interfaces:
+  - name: "Ethernet0/1"
+    vlan: 10
+  - name: "Ethernet0/2"
+    vlan: 20
